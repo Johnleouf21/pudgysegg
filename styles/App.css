@@ -1105,15 +1105,13 @@ p[data-v-1fb1860c] {
 }
 
 .pingui[data-v-6e975dbe] {
-    height: 100vh;
+    height: 60vh;
     z-index: 1;
     bottom: 0;
-    margin-right: 0;
-    position: absolute;
-    animation-name: example-6e975dbe;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out
+    margin-left: 45%;
+    margin-top: -15%;
+    position: relative;
+    
 }
 
 @keyframes example-6e975dbe {

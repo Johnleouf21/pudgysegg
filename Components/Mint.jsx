@@ -69,8 +69,8 @@ const Mint = () => {
                                 <div data-v-6e975dbe="" className="flex md:flex-col lg:flex-row space-x-2 space-y-6">
                                     <div data-v-6e975dbe="" className="nav-container">
                                         <div data-v-6e975dbe="" className="logo-container">
-                                            <a data-v-6e975dbe="" href="https://twitter.com/CoolPenguinsWTF" className="logo">
-                                                <img data-v-6e975dbe="" src="/img/logo32.d213eda0.png" alt="" className="logo1"/>
+                                            <a data-v-6e975dbe="" href="https://twitter.com/EggsPudgy" target="_blank" className="logo">
+                                                <img data-v-6e975dbe="" src="/Images/IGLOO_V2_600x200.png" alt="" className="logo1"/>
                                             </a>
                                         </div>
                                         <ul data-v-6e975dbe="" className="nav-list">
@@ -91,7 +91,7 @@ const Mint = () => {
                                     <a data-v-6e975dbe="" href="https://opensea.io/collection/coolpenguinswtf" target="_blank">
                                         <img data-v-6e975dbe="" src="/Images/os.6c2b45c7.png" alt="" className="logosmall"/>
                                     </a>
-                                    <a data-v-6e975dbe="" href="https://twitter.com/CoolPenguinsWTF" target="_blank">
+                                    <a data-v-6e975dbe="" href="https://twitter.com/EggsPudgy" target="_blank">
                                         <img data-v-6e975dbe="" src="/Images/twitter.944f02b3.png" alt="" className="logosmall"/>
                                     </a>
                                 </div>
@@ -134,6 +134,11 @@ const Mint = () => {
                                                     <div data-v-6e975dbe="" className="font-semibold text-5xl lg:text-6xl">
                                                 </div>
                                                 <div data-v-6e975dbe="" className="flex flex-col space-y-6">
+                                                    <br></br>
+                                                    <div data-v-6e975dbe="" id="supply" className="text-3xl font-bold">
+                                                        <h1 data-v-6e975dbe="">Cost {data.Price * quantity/10**18} ETH</h1>
+                                                    </div>
+                                                    <br></br>
                                                     <div data-v-6e975dbe="" id="supply" className="text-3xl font-bold">
                                                         {data.totalSupply<8888?<><h1 data-v-6e975dbe="">{data.totalSupply} eggs from 8,888</h1></>:
                                                         <h1 data-v-6e975dbe="">SOLD OUT.</h1>}
@@ -144,12 +149,12 @@ const Mint = () => {
                                         </div>
                                     </div>
                                     <div data-v-6e975dbe="" className="pad">
-                                    <img data-v-6e975dbe="" src="/Images/Untitled-2.50815755.gif" alt="" width={20} className="gif"/>
-                                </div>
+                                        <img data-v-6e975dbe="" src="/Images/62e1dfd0ea6d29a0b1f5ed10_credit_pengu.gif" alt="" width={20} className="gif"/>
+                                    </div>
                             </div>
                         </div>
                         <div data-v-6e975dbe="" className="pingcontainer">
-                            <img data-v-6e975dbe="" src="/Images/pinui.59d06f2c.png" alt="" className="pingui"/>
+                            <img data-v-6e975dbe="" src="/Images/90ae344a-e976-463c-bf04-5fb2217cd738.png" alt="" className="pingui"/>
                         </div>
                     </main>
                 </div>
