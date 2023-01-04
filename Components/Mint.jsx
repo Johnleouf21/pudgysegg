@@ -85,9 +85,9 @@ const Mint = () => {
                                     </div>
                                 </div>
                                 <div data-v-6e975dbe="" className="nav-list-bottom">
-                                    {/*<a data-v-6e975dbe="" href="https://etherscan.io/address/0x76C2b28B05B8E106013420554515ABc53316110b" target="_blank">
+                                    <a data-v-6e975dbe="" href="https://etherscan.io/address/0x0f0595cdbb3bf77e3501788c76d960b58c384424" target="_blank">
                                         <img data-v-6e975dbe="" src="/Images/block.21a33941.png" alt="" className="logosmall"/>
-        </a>*/}
+                                    </a>
                                     <a data-v-6e975dbe="" href="https://opensea.io/fr/collection/eggs-by-pudgy-penguins" target="_blank">
                                         <img data-v-6e975dbe="" src="/Images/os.6c2b45c7.png" alt="" className="logosmall"/>
                                     </a>
