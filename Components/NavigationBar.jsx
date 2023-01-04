@@ -51,7 +51,7 @@ useEffect(() => {
     // polygon mumbai
     //const correctChain = '0x13881'
     // goerli
-    const correctChain = '0x5'
+    const correctChain = '0x1'
 
     const [connected, setConnected, , setProvider, , setAddress, , setIsChainCorrect] = useContext(ConnectionContext)
     async function connect() {
@@ -94,7 +94,7 @@ useEffect(() => {
           if (!window.ethereum) throw new Error("No crypto wallet found");
           await ethereum.request({
             method: 'wallet_switchEthereumChain',
-            params: [{ chainId: `0x${Number(5).toString(16)}` }],
+            params: [{ chainId: `0x${Number(1).toString(16)}` }],
           });
         } catch (switchError) {
           // This error code indicates that the chain has not been added to MetaMask.

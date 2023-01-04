@@ -20,7 +20,7 @@ const Provider = ({ children }) => {
 export { ConnectionContext, Provider };
 
 const Contract = ({ children }) => {
-    const NFTAddress = '0x76BCcB8b649efa9e1314655c399DA7c37423cea6'
+    const NFTAddress = '0x0F0595CDBB3bF77e3501788C76d960b58c384424'
     const value = [NFTABI, NFTAddress]
 
     return <ContractContext.Provider value={value}>{children}</ContractContext.Provider>;
