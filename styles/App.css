@@ -1105,10 +1105,10 @@ p[data-v-1fb1860c] {
 }
 
 .pingui[data-v-6e975dbe] {
-    height: 60vh;
+    height: 40vh;
     z-index: 1;
     bottom: 0;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: -15%;
     position: relative;
     
@@ -1212,7 +1212,7 @@ h4[data-v-6e975dbe] {
     color: #000 !important;
     z-index: 999;
     margin-top: 70px;
-    margin-left: 70px;
+    margin-right: 400px;
     box-shadow: 5px 5px 5px #fff
 }
 
