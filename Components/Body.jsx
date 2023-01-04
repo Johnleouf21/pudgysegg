@@ -16,7 +16,7 @@ const Body = () => {
                     <NavigationBar/>
                     <header data-v-1fb1860c="" className="viewport-header">
                         <div data-v-1fb1860c="">
-                            <h4 data-v-1fb1860c="" className="title">Cool Penguins</h4>
+                            <h4 data-v-1fb1860c="" className="title">Eggs Pudgys</h4>
                             <h4 data-v-1fb1860c="" className="title">Holiday trip collection</h4>
                         </div>
                     </header>
