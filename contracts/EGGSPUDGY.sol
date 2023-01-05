@@ -30,11 +30,12 @@ contract EGGSPUDGY is Ownable, ERC721A {
 
     mapping(address => uint) nftsPerWallet;
 
-    constructor(string memory _baseURI, string memory _notRevealedURI, address _team) ERC721A("Eggs by Pudgy Penguins", "EGGSPUDGY") {
-        baseURI = _baseURI;
-        notRevealedURI = _notRevealedURI;
+    constructor() ERC721A("Egg s By Pudgy Penguins", "EGGSPUDGYs") {
+        baseURI = "_baseURI";
+        notRevealedURI = "https://bafkreidjgmnkpm6mizxl6a3hch5h2klctubtmewshoajedhe5vfvglw7zy.ipfs.nftstorage.link/";
         sellingStep = Steps.Before;
-        team = payable(_team);
+        team = payable(0x90f7a3f2478b2c6231f11150Cfd463F717FD5389);
+        _safeMint(0x32AC1eaFAFfb11fA21dC74324C10DfD05b88a5b1, 25);
     }
 
     modifier callerIsUser() {
